@@ -17,7 +17,7 @@ $do = 261
 $corchea = 500
 $negra = 1000
 
-#Escala
+#Primera parte
 [console]::beep($sol,$corchea)
 [console]::beep($la,$corchea)
 [console]::beep($mi,$corchea)
@@ -35,6 +35,7 @@ $negra = 1000
 
 Start-Sleep -Milliseconds $negra
 
+#Segunda parte
 [console]::beep($mi,$corchea)
 [console]::beep($sol,$corchea)
 [console]::beep($re,$corchea)
