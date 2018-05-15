@@ -4,7 +4,7 @@
 # script for repeat the tune as much as she needed.
 
 # There are better choices from the technical/programming perspective for this 
-# tasks, like using "System.Media.SystemSounds.Beep.Play()". But this works :-)
+# tasks, like using "System.Media" or arrays. But this works for now :-)
 
 $si = 493
 $la = 440
